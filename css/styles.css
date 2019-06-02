@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #5F676D;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.main-header {
+    background-color: #F8FAFC;
+    margin-top: 0;
+    text-align: center;
+}
+
+
+.main-nav li {
+    list-style: none;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+
+.profile-picture {
+    max-width:60%;
+}
+
+.intro,
+.conclusion {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.intro {
+    padding-bottom: 25px;
+}
+
+.main-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+.main-content {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.contact {
+    text-align: center;
+    background-color: #F8FAFC;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact-title {
+    text-transform: uppercase;
+}
+
+.top-page {
+    float: right;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.2em;
+}
+
+.main-footer {
+    margin-right: 25px;
+    margin-left: 25px;
+
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
