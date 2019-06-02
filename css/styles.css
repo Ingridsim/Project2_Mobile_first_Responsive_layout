@@ -1,7 +1,15 @@
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    color: #5F676D;
+}
+
+html, body {
+    height: 100%;
+  }
+
+body {
+    margin: 0 auto;
+    max-width: 1024px;
+    font-family: Roboto, sans-serif;
 }
 
 .container {
@@ -9,43 +17,80 @@
     margin: auto;
 }
 
-.main-header {
+.main-header{
     background-color: #F8FAFC;
-    margin-top: 0;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+  
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+  
+.my-name {
+      text-transform: capitalize;
+}
+  
+nav {
+    font-family: Roboto, Arial, Verdana;
+    font-weight: 400;
+    letter-spacing: .05em;
+    padding: 25px;
+    background-color: #107896;
+}
+  
+h1, 
+.top-nav {
     text-align: center;
 }
-
-
-.main-nav li {
-    list-style: none;
-    background-color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 5px;
-    padding-top:15px;
-    padding-bottom: 15px;
-    text-align: center;
+  
+.top-nav, 
+.top-nav li {
+    width: 100%;
+}
+  
+.top-nav {
+    margin-top: 30px;
+}
+  
+.top-nav li {
+    padding: 10px 0;
+    margin: 5px auto;
+    background-color: #fff;
 }
 
 
 .profile-picture {
+    margin-top: 30px;
+    margin-bottom: 30px;
     max-width:60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    
 }
 
 .intro,
 .conclusion {
     margin-right: 25px;
     margin-left: 25px;
-}
+} 
 
 .intro {
     padding-bottom: 25px;
+    text-align: center;
 }
 
 .main-title {
     text-align: center;
     text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.2em;
 }
 .main-content {
     text-align: center;
@@ -53,26 +98,22 @@
     margin-bottom: 40px;
 }
 
+
 .contact {
     text-align: center;
     background-color: #F8FAFC;
     background-size: cover;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 80px;
 }
 
 .contact-title {
     text-transform: uppercase;
 }
 
-.top-page {
-    float: right;
-    text-transform: uppercase;
-}
-
-a {
-    text-decoration: none;
-    color: black;
+.email-address {
+    text-transform: lowercase;
 }
 
 img {
@@ -83,17 +124,39 @@ p {
     font-size: 18px;
     line-height: 1.2em;
 }
-
 .main-footer {
-    margin-right: 25px;
-    margin-left: 25px;
-
-}
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    background-color: #107896;
   }
+
+.footer-name {
+    float: left;
+    height: 12px;
+    line-height: 12px;
+}
+  
+.footer-nav {
+    text-align: right;
+    list-style: none;
+    padding-left: 0;
+}
+  
+.footer-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+  
+.top, 
+.footer-nav li:last-child {
+    margin-right: 0;
+}
+  
+.footer-nav .full {
+    display: none;
+}
+  
+  
 
 
